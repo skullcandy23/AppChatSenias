@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".SeniasEspanol">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/gr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/as"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/a"
+                    android:onClick="writeA" />
+
+                <Button
+                    android:id="@+id/bs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/b"
+                    android:onClick="writeB" />
+
+                <Button
+                    android:id="@+id/cs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/c"
+                    android:onClick="writeC" />
+
+                <Button
+                    android:id="@+id/ds"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/d"
+                    android:onClick="writeD"/>
+
+                <Button
+                    android:id="@+id/es"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/e"
+                    android:onClick="writeE"/>
+
+                <Button
+                    android:id="@+id/fs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/f"
+                    android:onClick="writeF"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/gr2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/gs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/g"
+                    android:onClick="writeG"/>
+
+                <Button
+                    android:id="@+id/hs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/h"
+                    android:onClick="writeH"/>
+
+                <Button
+                    android:id="@+id/is"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/i"
+                    android:onClick="writeI"/>
+
+                <Button
+                    android:id="@+id/js"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/j"
+                    android:onClick="writeJ"/>
+
+                <Button
+                    android:id="@+id/ks"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/k"
+                    android:onClick="writeK" />
+
+                <Button
+                    android:id="@+id/ls"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/l"
+                    android:onClick="writeL"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/gr3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ms"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/m"
+                    android:onClick="writeM"/>
+
+                <Button
+                    android:id="@+id/ns"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n"
+                    android:onClick="writeN"/>
+
+                <Button
+                    android:id="@+id/os"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/o"
+                    android:onClick="writeO"/>
+
+                <Button
+                    android:id="@+id/ps"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/p"
+                    android:onClick="writeP"/>
+
+                <Button
+                    android:id="@+id/qs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/q"
+                    android:onClick="writeQ"/>
+
+                <Button
+                    android:id="@+id/rs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/r"
+                    android:onClick="writeR"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/gr4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ss"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/s"
+                    android:onClick="writeS"/>
+
+                <Button
+                    android:id="@+id/ts"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/t"
+                    android:onClick="writeT"/>
+
+                <Button
+                    android:id="@+id/us"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/u"
+                    android:onClick="writeU"/>
+
+                <Button
+                    android:id="@+id/vs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/v"
+                    android:onClick="writeV"/>
+
+                <Button
+                    android:id="@+id/ws"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/w"
+                    android:onClick="writeW"/>
+
+                <Button
+                    android:id="@+id/xs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/x"
+                    android:onClick="writeX"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/gr5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ys"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/y"
+                    android:onClick="writeY"/>
+
+                <Button
+                    android:id="@+id/zs"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/z"
+                    android:onClick="writeZ"/>
+
+                <Button
+                    android:id="@+id/s1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/num10"
+                    android:onClick="write1"/>
+
+                <Button
+                    android:id="@+id/s2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n2"
+                    android:onClick="write2"/>
+
+                <Button
+                    android:id="@+id/s3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n3"
+                    android:onClick="write3"/>
+
+                <Button
+                    android:id="@+id/s4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n4"
+                    android:onClick="write4"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/gr6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/s5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n5"
+                    android:onClick="write5"/>
+
+                <Button
+                    android:id="@+id/s6"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n6"
+                    android:onClick="write6"/>
+
+                <Button
+                    android:id="@+id/s7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n7"
+                    android:onClick="write7"/>
+
+                <Button
+                    android:id="@+id/s8"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n8"
+                    android:onClick="write8"/>
+
+                <Button
+                    android:id="@+id/s9"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n9"
+                    android:onClick="write9"/>
+
+                <Button
+                    android:id="@+id/s0"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/n0"
+                    android:onClick="write0"/>
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white" />
+
+        <TableLayout
+            android:id="@+id/tabla"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bottonEsp"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="writeEsp"
+                android:text="O | O" />
+
+            <Button
+                android:id="@+id/botton"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="limpiar"
+                android:text="///" />
+
+            <Button
+                android:id="@+id/bottonTra"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/borrar"
+                android:gravity="center"
+                android:onClick="borrar" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bottonEsp2"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="traducir"
+            android:text="----->+1 "
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

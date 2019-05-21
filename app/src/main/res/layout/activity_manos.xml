@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManosActivity">
+
+
+    <TextView
+        android:id="@+id/tvTexto"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/gr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/as"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/a"
+                android:onClick="doWriteTalkA" />
+
+            <Button
+                android:id="@+id/bs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/b"
+                android:onClick="doWriteTalkB"/>
+
+            <Button
+                android:id="@+id/cs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/c"
+                android:onClick="doWriteTalkC"/>
+
+            <Button
+                android:id="@+id/ds"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/d"
+                android:onClick="doWriteTalkD"/>
+
+            <Button
+                android:id="@+id/es"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/e"
+                android:onClick="doWriteTalkE"/>
+
+            <Button
+                android:id="@+id/fs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/f"
+                android:onClick="doWriteTalkF"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/gr2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/gs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/g"
+                android:onClick="doWriteTalkG"/>
+
+            <Button
+                android:id="@+id/hs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/h"
+                android:onClick="doWriteTalkH"/>
+
+            <Button
+                android:id="@+id/is"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/i"
+                android:onClick="doWriteTalkI"/>
+
+            <Button
+                android:id="@+id/js"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/j"
+                android:onClick="doWriteTalkJ"/>
+
+            <Button
+                android:id="@+id/ks"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/k"
+                android:onClick="doWriteTalkK"/>
+
+            <Button
+                android:id="@+id/ls"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/l"
+                android:onClick="doWriteTalkL"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/gr3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/ms"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/m"
+                android:onClick="doWriteTalkM"/>
+
+            <Button
+                android:id="@+id/ns"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n"
+                android:onClick="doWriteTalkN"/>
+
+            <Button
+                android:id="@+id/os"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/o"
+                android:onClick="doWriteTalkO"/>
+
+            <Button
+                android:id="@+id/ps"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/p"
+                android:onClick="doWriteTalkP"/>
+
+            <Button
+                android:id="@+id/qs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/q"
+                android:onClick="doWriteTalkQ"/>
+
+            <Button
+                android:id="@+id/rs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/r"
+                android:onClick="doWriteTalkR"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/gr4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/ss"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/s"
+                android:onClick="doWriteTalkS"/>
+
+            <Button
+                android:id="@+id/ts"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/t"
+                android:onClick="doWriteTalkT"/>
+
+            <Button
+                android:id="@+id/us"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/u"
+                android:onClick="doWriteTalkU"/>
+
+            <Button
+                android:id="@+id/vs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/v"
+                android:onClick="doWriteTalkV"/>
+
+            <Button
+                android:id="@+id/ws"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/w"
+                android:onClick="doWriteTalkW"/>
+
+            <Button
+                android:id="@+id/xs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/x"
+                android:onClick="doWriteTalkX"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/gr5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/ys"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/y"
+                android:onClick="doWriteTalkY"/>
+
+            <Button
+                android:id="@+id/zs"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/z"
+                android:onClick="doWriteTalkZ"/>
+
+            <Button
+                android:id="@+id/s1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/num10"
+                android:onClick="doWriteTalk1"/>
+
+            <Button
+                android:id="@+id/s2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n2"
+                android:onClick="doWriteTalk2"/>
+
+            <Button
+                android:id="@+id/s3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n3"
+                android:onClick="doWriteTalk3"/>
+
+            <Button
+                android:id="@+id/s4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n4"
+                android:onClick="doWriteTalk4"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/gr6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/s5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n5"
+                android:onClick="doWriteTalk5"/>
+
+            <Button
+                android:id="@+id/s6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n6"
+                android:onClick="doWriteTalk6"/>
+
+            <Button
+                android:id="@+id/s7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n7"
+                android:onClick="doWriteTalk7"/>
+
+            <Button
+                android:id="@+id/s8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n8"
+                android:onClick="doWriteTalk8"/>
+
+            <Button
+                android:id="@+id/s9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n9"
+                android:onClick="doWriteTalk9"/>
+
+            <Button
+                android:id="@+id/s0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/n0"
+                android:onClick="doWriteTalk0"/>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
